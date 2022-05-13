@@ -1,0 +1,25 @@
+{
+  "name": "tinyhttpwebservertest",
+  "version": "1.0.0",
+  "description": "Tiny Http Web Server Test",
+  "main": "./src/index.js",
+  "scripts": {
+    "lint": "eslint \"src/**/*.js\" --fix",
+    "start": "node ."
+  },
+  "keywords": [
+    "webserver",
+    "hanif-tiny-http"
+  ],
+  "author": "Hanif Dwy Putra S <hanifdwyputrasembiring@gmail.com>",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-plugin-google": "^0.14.0",
+    "eslint-plugin-import": "^2.25.2"
+  },
+  "dependencies": {
+    "url-regex": "^5.0.0"
+  }
+}
